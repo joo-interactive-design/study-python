@@ -2,7 +2,7 @@
 
 ## Python dictionary has two parts : Key and Value 
 ### {Key: Value}
-programming_dictionary = {"Bug": " An error in a program that ...}
+programming_dictionary = {"Bug": " An error in a program that ..."}
 
 ### Retrieving items from dictionary
 print(programming_dictionary["Bug"])
