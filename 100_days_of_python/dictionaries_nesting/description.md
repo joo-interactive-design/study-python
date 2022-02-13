@@ -9,7 +9,7 @@ print(programming_dictionary["Bug"])
 ###### *When retrieving items, make sure the key is actual data type, and spell right 
 
 ### Adding new items to dictionary
-programming_dictionary["Loop"] = "The action of doing something over and over again"
+programming_dictionary["Loop"] = "The action of doing something over and over again"<br>
 print(programming_dictionary)
 
 ### Create an empty dictionary
@@ -22,9 +22,9 @@ programming_dictionary = {}
 Programming_dictionary["Bug"] = "new definition here"
 
 ### Loop through a dictionary
-for key in programming_dictionary:
-  print(key)
-  print(programming_dictionary[key])
+for key in programming_dictionary:<br>
+  print(key)<br>
+  print(programming_dictionary[key])<br>
 ##### *it's printing out key and value
 
 
