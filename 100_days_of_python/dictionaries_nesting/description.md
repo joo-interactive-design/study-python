@@ -3,5 +3,10 @@
 #### Python dictionary has two parts : Key and Value 
 ##### {Key: Value}
 ##### programming_dictionary = {"Bug": " An error in a program that ...}
-##### print(programming_dictionary["Bug"]
-###### *make sure the key is actual data type, and spell right 
+
+##### Retrieving items from dictionary
+print(programming_dictionary["Bug"]
+###### *When retrieving items, make sure the key is actual data type, and spell right 
+
+##### Adding new items to dictionary
+programming dictionry
