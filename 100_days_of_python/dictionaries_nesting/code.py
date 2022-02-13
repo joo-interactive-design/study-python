@@ -1,5 +1,5 @@
 
-#Excercise 1 - covert theirs scores to grades
+#Excercise 1 - to covert theirs scores to grades
 
 student_scores = {
   "Harry": 81,
