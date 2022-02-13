@@ -5,8 +5,27 @@
 programming_dictionary = {"Bug": " An error in a program that ...}
 
 ### Retrieving items from dictionary
-print(programming_dictionary["Bug"]
+print(programming_dictionary["Bug"])
 ###### *When retrieving items, make sure the key is actual data type, and spell right 
 
 ### Adding new items to dictionary
-programming dictionry
+programming_dictionary["Loop"] = "The action of doing something over and over again"
+print(programming_dictionary)
+
+### Create an empty dictionary
+empty_dictionary = {}
+
+### Wipe an existing dictionary
+programming_dictionary = {}
+
+### Edit an item in a dictionary
+Programming_dictionary["Bug"] = "new definition here"
+
+### Loop through a dictionary
+for key in programming_dictionary:
+  print(key)
+  print(programming_dictionary[key])
+##### *it's printing out key and value
+
+
+
