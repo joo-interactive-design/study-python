@@ -25,8 +25,35 @@ Programming_dictionary["Bug"] = "new definition here"
 for key in programming_dictionary:<br>
   print(key)<br>
   print(programming_dictionary[key])<br>
-##### *it's printing out key and value
+##### *It's printing out key and value
 
 ## Nesting
-
-
+{ <br>
+  key: [List]<br>
+  key2: {Dict},<br>
+ }
+ 
+ ### Nesting a List in a Dictionary
+ travel_log = { <br>
+  "France": {"cities_visited" : ["Paris", "lille", "Dijon"], "total_visits = 12},
+  "Germany": {"cities_visited" : ["Berlin"], "total_visits : 5}<br>
+ }<br>
+ 
+ ### Nesting a List in a List
+ travel_log = [ <br>
+  {
+    "country": "France", <br>
+    "cities_visited" : ["Paris", "lille", "Dijon"], <br>
+    "total_visits : 12<br>
+  },<br>
+  {
+    "country": "Germany", <br>
+    "cities_visited" : ["Berlin"],<br>
+    "total_visits : 5<br>
+  },<br>
+ ]<br>
+ 
+ 
+ 
+ 
+ ##### *Value can be list, dictionary
