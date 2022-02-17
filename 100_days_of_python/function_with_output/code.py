@@ -94,6 +94,9 @@ second_answer = calculation_function(answer, num3)
 print(f"{answer} {operation_symbol} {num3} = {second_answer}")
 
 
+#add while loops for adding a function to type "y" to continue calculating with the previous answer, or "n" to exit
+
+  
 
 
 
