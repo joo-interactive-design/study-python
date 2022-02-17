@@ -85,6 +85,14 @@ answer = calculation_function(num1, num2)
 
 print(f"{num1} {operation_symbol} {num2} = {answer}")
 
+#write a code to keep calculating with the previous answer
+operation_symbol = input("pick another operation: ")
+num3 = int(input("What's your third number?: "))
+calculation_function = operation[operation_symbol]
+second_answer = calculation_function(answer, num3)
+
+print(f"{answer} {operation_symbol} {num3} = {second_answer}")
+
 
 
 
