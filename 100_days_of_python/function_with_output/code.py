@@ -17,7 +17,7 @@ def format_name(f_name, l_name):
 
 print(format_name(input("What is your first name?"), input("What is your last name?")))
 
-#exercise 2 - Days in Month( Leap Year challenge )
+#exercise 2 - days in month( leap year challenge )
 def is_leap(year):
   if year % 4 == 0:
     if year % 100 == 0:
@@ -45,6 +45,7 @@ days = days_in_month(year, month)
 print(days)
 
 
+#exercise 3 - calculator : combining dictioinaries and functions
 
 
 
