@@ -1,4 +1,4 @@
-##Functions with Inputs
+## Functions with Inputs
 def my_function(something):
   #Do this with something
   #Then do this
@@ -6,7 +6,7 @@ def my_function(something):
   
 my_function(123)
 
-##Functions with Outputs
+## Functions with Outputs
 def my_function():
   result = 3 * 2
   return result
