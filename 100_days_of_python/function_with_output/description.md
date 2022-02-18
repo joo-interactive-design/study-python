@@ -1,14 +1,14 @@
 ## Functions with Inputs
-def my_function(something):
-  #Do this with something
-  #Then do this
-  #Finally do this
+def my_function(something):<br>
+  #Do this with something<br>
+  #Then do this<br>
+  #Finally do this<br>
   
-my_function(123)
+my_function(123)<br>
 
-## Functions with Outputs
-def my_function():
-  result = 3 * 2
-  return result
+## Functions with Outputs<br>
+def my_function():<br>
+  result = 3 * 2<br>
+  return result<br>
   
-output = my_function()
+output = my_function()<br>
