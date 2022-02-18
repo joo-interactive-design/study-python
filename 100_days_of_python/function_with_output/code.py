@@ -97,14 +97,14 @@ print(f"{answer} {operation_symbol} {num3} = {second_answer}")
 #add while loops for adding a function to type "y" to continue calculating with the previous answer, or "n" to exit
 #create a calculator function
 def calculator():
-  num1 = int(input("What's your first number?: "))
+  num1 = float(input("What's your first number?: "))
   for symbol in operations:
     print(symbol)
   continue_calc = True
 
   while continue_calc:
     operation_symbol = input("pick an operation from above: ")
-    num2 = int(input("What's your next number: "))
+    num2 = float(input("What's your next number: "))
     calculation_function = operations[operation_symbol]
     answer = calculation_function(num1, num2)
 
