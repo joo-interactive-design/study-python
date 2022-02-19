@@ -11,6 +11,4 @@ This project is to create a blackjack game to apply what I've learned
 -if the dealer ends up with smaller than 17(16 or under), they must take another card.
 
 ### Flow chart
-
-![Group 1](https://user-images.githubusercontent.com/86972559/154788962-b235e60a-e2f8-4b86-8019-2b0e61700bb9.png)
-
+![Group 1](https://user-images.githubusercontent.com/86972559/154788997-c1448488-ae1e-473c-90dd-ddfab9e18b79.png)
