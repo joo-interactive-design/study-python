@@ -12,4 +12,5 @@ This project is to create a blackjack game to apply what I've learned
 
 ### Flow chart
 
-![Group 1](https://user-images.githubusercontent.com/86972559/154788919-a1ac6342-27c4-4a6f-bb77-8153a6b8d46f.png)
+![Group 1](https://user-images.githubusercontent.com/86972559/154788962-b235e60a-e2f8-4b86-8019-2b0e61700bb9.png)
+
