@@ -51,4 +51,15 @@ def create_enemy():
 ```
 The code above is working!
 
+<br>
+
+#### Modifying Global Scope
+
+enemies = 1
+def increase_enemies():
+  #take global variable into the function
+  global enemies
+  enemies += 1
+  print(enemies)
+
 
