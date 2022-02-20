@@ -1,6 +1,7 @@
 ## Number Guessing Game
 
 ![Group 3](https://user-images.githubusercontent.com/86972559/154830386-49943933-0397-482f-8b7e-c30d181f4143.png)
+Code is on file named code.py
 
 ## Scope
 
