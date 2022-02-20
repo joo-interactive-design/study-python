@@ -55,11 +55,14 @@ The code above is working!
 
 #### Modifying Global Scope
 
+```python
 enemies = 1
 def increase_enemies():
   #take global variable into the function
   global enemies
   enemies += 1
   print(enemies)
+```
+ 
 
 
