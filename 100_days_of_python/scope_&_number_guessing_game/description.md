@@ -30,3 +30,25 @@ drink_potion()
 print(player_health)
 ```
 Indentation / nesting is important!
+
+```python
+game_level = 3
+def create_enemy():
+  enemy = ["skeleton", "zombie", "alien"]
+  if game_level < 5:
+    new_enemy = enemy[0]
+print(new_enemy)
+```
+The code above is not working. Make sure that if a variable is created within a function, then it's only available within that function.
+
+```python
+game_level = 3
+def create_enemy():
+  enemy = ["skeleton", "zombie", "alien"]
+  if game_level < 5:
+    new_enemy = enemy[0]
+   print(new_enemy)
+```
+The code above is working!
+
+
