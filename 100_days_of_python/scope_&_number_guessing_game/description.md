@@ -1,3 +1,7 @@
+## Number Guessing Game
+
+![Group 3](https://user-images.githubusercontent.com/86972559/154830386-49943933-0397-482f-8b7e-c30d181f4143.png)
+
 ## Scope
 
 #### Local Scope
@@ -81,5 +85,7 @@ print(enemies)
 
 #### Note
 Inside a if/else/for/while code block is the same as outside it.
+
+
 
 
