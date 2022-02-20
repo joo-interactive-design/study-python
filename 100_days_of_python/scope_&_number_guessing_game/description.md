@@ -64,5 +64,16 @@ def increase_enemies():
   print(enemies)
 ```
  
+#### Better way is use 'return' instead of modifying global scope
+
+```python
+enemies = 1
+def increase_enemies():
+  return enemies + 1
+
+enemies = increase_enemies()
+print(enemies)
+```
+
 
 
