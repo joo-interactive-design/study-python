@@ -63,6 +63,8 @@ def increase_enemies():
   enemies += 1
   print(enemies)
 ```
+
+<br>
  
 #### Better way is use 'return' instead of modifying global scope
 
@@ -75,5 +77,9 @@ enemies = increase_enemies()
 print(enemies)
 ```
 
+<br>
+
+#### Note
+Inside a if/else/for/while code block is the same as outside it.
 
 
