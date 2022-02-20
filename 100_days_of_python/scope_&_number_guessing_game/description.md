@@ -1,7 +1,16 @@
 ## Scope
 
 #### Local Scope
+
 ```python
 def drink_potion():
-
+  potion_strength = 2
+  print(potion_strength)
 ```
+the result of the code above is 2
+
+```python
+drink_potion():
+print(potion_strength)
+```
+the result of the code above is error:name 'potion_strength' is not defined
