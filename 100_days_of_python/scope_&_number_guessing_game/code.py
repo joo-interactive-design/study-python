@@ -35,3 +35,10 @@ print(f"You have {remaing_turns} attempts remaining to guess the number.")
 
 #Let the user guess a number
 user_guess = int(input("Make a guess: "))
+check_answer(answer, user_guess)
+
+while user_guess != answer:
+  remaing_turns -= 1
+  user_guess = int(input("Make a guess: "))
+  check_answer(answer, user_guess)
+  print(f"You have {remaing_turns} attempts remaining to guess the number.")
